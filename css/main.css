@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: unset;
+}
+:root {
+    --rim-color: #6E38F7;
+    --bag-color: #FFFFFF;
+    --dark-color: #363940;
+    --text-color: #95A1BB;
+}
+body {
+    background-color: var(--bag-color);
+}
+.main {
+    width: 100%;
+    background-color: var(--bag-color);
+}
+.card {
+    background-color: var(--bag-color);
+    width: 100%;
+    row-gap: 100px;
+    margin-top: 30px;
+}
+.pro {
+    row-gap: 50px;
+}
+.title {
+    color: var(--dark-color);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+}
+.navbar-brand {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.card-card {
+    display: flex;
+    width: 220px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card-card-title {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+
+.card-card-text {
+    width: 200px;
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    transition: 0.5s;
+}
+
+.card-card-title:hover {
+    color: var(--rim-color);
+}
+
+.carder {
+    width: 100%;
+    background-color: var(--bag-color);
+    margin-top: 70px;
+}
+
+.caredr-title {
+    width: 100%;
+    text-align: center;
+}
+.caredr-decs {
+    width: 100%;
+    text-align: center;
+}
+.carder-card {
+    display: flex;
+    width: 450px;
+    height: 200px;
+    margin-right: 30px;
+    align-items: center;
+    column-gap: 30px;
+}
+.card-img {
+    width: 150px;
+    height: 150px;
+}
+.card-title {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.card-namer {
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.card-desc {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 300px;
+}
+.card_-card {
+    width: 220px;
+    height: 372px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.card-img-img {
+    display: flex;
+    width: 220px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-card_ {
+    color: var(--rim-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.card-title-2 {
+    color: var(--dark-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
